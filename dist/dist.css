@@ -1,18 +1,20 @@
 :root {
- --background-1: #fdf6e3;
+ --background-1: #fdf6e3; 
  --background-2: #eee8d5; 
- --foreground-color: #002b36;
- --highlight-color: #b58900;
+ --foreground-color: #586e75;
+ --highlight-color: #eee8d5;
  --border-color: #eee8d5;
- --accent-1: #268bd2;
- --accent-2: #d33682;
- --accent-3: #6c71c4;
- --accent-4: #859900;
- --accent-5: #b58900;
- --content-1: #93a1a1;
- --content-2: #839496;
- --content-3: #657b83;
- --content-4: #586e75;
+ --accent-1: #b58900;
+ --accent-2: #cb4b16;
+ --accent-3: #dc322f;
+ --accent-4: #d33682;
+ --accent-5: #6c71c4;
+ --accent-6: #268bd2;
+ --accent-7: #2aa198;
+ --accent-8: #859900;
+ --content-1: #586e75;
+ --content-2: #657b83;
+ --content-3: #93a1a1;
   /* Footer */
   --footer-bar-border-top-color: 0;
   /* Column Menus */
@@ -33,11 +35,11 @@
 }
 
 panel-resizer {
-  background-color: var(--background-2) !important;
+  background-color: var(--accent-4) !important;
 }
 
 input {
-  color: var(--content-4) !important;
+  color: var(--content-2) !important;
 }
 
 body {
@@ -49,7 +51,7 @@ body {
 }
 
 .add-button {
-  background-color: var(--background-1) !important;
+  background-color: var(--background-2) !important;
   color: var(--foreground-color) !important;
 }
 
@@ -67,7 +69,7 @@ body {
 }
 
 .app-bar {
-  background-color: var(--background-1) !important;
+  background-color: var(--background-2) !important;
   border-color: var(--border-color) !important;
 }
 .app-bar .item.border {
@@ -78,7 +80,7 @@ body {
 .app-bar .item:hover > .sublabel,
 .app-bar .item:hover > .column > .label,
 .app-bar .item:hover > .column > .sublabel {
-  color: var(--highlight-color) !important;
+  color: var(--accent-5) !important;
 }
 
 .section-title-bar {
@@ -104,11 +106,11 @@ body {
 }
 
 .tags .tag > .info > .title {
-  color: var(--accent-1) !important;
+  color: var(--accent-6) !important;
 }
 
 .tags .tag a {
-  color: var(--foreground-color) !important;
+  color: var(--accent-7) !important;
 }
 
 .tags .tag.selected > .info > .title {
@@ -116,7 +118,7 @@ body {
 }
 
 .tags .tag > .info > .count {
-  color: var(--highlight-color) !important;
+  color: var(--accent-1) !important;
 }
 
 .tags .tag.selected {
@@ -149,25 +151,25 @@ body {
 }
 
 .notes .filter-section .filter-bar {
-  background-color: var(--background-1) !important;
+  background-color: var(--background-2) !important;
 }
 
 .notes .note.selected {
-  background-color: var(--highlight-color) !important;
+  background-color: var(--background-1) !important;
   color: var(--foreground-color) !important;
   border-left: 0 !important;
   border-right: 0 !important;
 }
 
 #notes-column #notes-title-bar, .notes #notes-title-bar {
-  border-left: 1px solid var(--background-2) !important;
-  border-right: 1px solid var(--background-2) !important;
+  border-left: 1px solid var(--border-color) !important;
+  border-right: 1px solid var(--border-color) !important;
 }
 
 .notes .note {
-  border-bottom: 1px solid var(--background-2) !important;
-  background-color: var(--background-1) !important;
-  color: var(--accent-1);
+  border-bottom: 1px solid var(--border-color) !important;
+  background-color: var(--background-2) !important;
+  color: var(--content-3);
 }
 
 .note .name {
@@ -175,7 +177,7 @@ body {
 }
 
 .note .date {
-  color: var(--highlight-color) !important;
+  color: var(--accent-3) !important;
 }
 
 .note.selected .date {
@@ -183,8 +185,8 @@ body {
 }
 
 .notes .scrollable {
-  border-left: 1px solid var(--background-2) !important;
-  border-right: 1px solid var(--background-2) !important;
+  border-left: 1px solid var(--border-color) !important;
+  border-right: 1px solid var(--border-color) !important;
 }
 
 /* Editor */
@@ -202,15 +204,15 @@ body {
 
 .editor-content .editable {
   background-color: var(--background-1);
-  color: var(--content-4);
+  color: var(--content-2);
 }
 
 #editor-title-bar .editor-tags .tags-input {
-  color: var(--foreground-color) !important;
+  color: var(--accent-6) !important;
 }
 
 #editor-title-bar #save-status {
-  color: #4C4C4C !important;
+  color: var(--accent-8) !important;
 }
 
 #editor-pane-component-stack .component:first-child {
@@ -220,7 +222,7 @@ body {
 /* Editors */
 .CodeMirror {
   background-color: var(--background-1) !important;
-  color: var(--content-4) !important;
+  color: var(--content-2) !important;
   border: 0 !important;
 }
 
@@ -238,13 +240,13 @@ body {
 
 .CodeMirror-gutters {
   background-color: var(--background-1) !important;
-  color: var(--content-4) !important;
+  color: var(--content-2) !important;
   border-color: var(--border-color) !important;
 }
 
 .CodeMirror .cm-header {
   font-family: arial;
-  color: var(--content-4) !important;
+  color: var(--content-2) !important;
 }
 
 .CodeMirror .cm-variable-2 {
@@ -254,7 +256,7 @@ body {
 
 .CodeMirror .cm-link, .cm-string, .cm-keyword {
   font-family: arial;
-  color: var(--content-4) !important;
+  color: var(--content-2) !important;
 }
 
 .CodeMirror .CodeMirror-linenumber {
@@ -264,7 +266,7 @@ body {
 /* Code Editor bottom toolbar */
 #select-wrapper {
   background-color: var(--background-1) !important;
-  color: var(--content-4) !important;
+  color: var(--content-2) !important;
   border-color: var(--border-color) !important;
 }
 
@@ -279,14 +281,14 @@ body {
 }
 
 .editor-toolbar a {
-  color: var(--content-4) !important;
+  color: var(--content-2) !important;
 }
 
 .editor-preview-active, .editor-preview-active-side {
   background-color: var(--background-1) !important;
   border: 0 !important;
   border-left: 1px solid var(--border-color) !important;
-  color: var(--content-4) !important;
+  color: var(--content-2) !important;
 }
 
 .editor-preview-active {
@@ -296,12 +298,12 @@ body {
 /* Simple Markdown Editor */
 #simple-markdown {
   background-color: var(--background-1) !important;
-  color: var(--content-4) !important;
+  color: var(--content-2) !important;
 }
 
 #simple-markdown #editor {
   background-color: var(--background-1) !important;
-  color: var(--content-4) !important;
+  color: var(--content-2) !important;
 }
 
 #simple-markdown #column-resizer {
@@ -311,7 +313,7 @@ body {
 /* Plus Editor */
 #plus-editor .note-editor.note-frame.fullscreen .note-editable {
   background-color: var(--background-1) !important;
-  color: var(--content-4) !important;
+  color: var(--content-2) !important;
 }
 
 #plus-editor .panel-default > .panel-heading {
@@ -319,7 +321,7 @@ body {
 }
 
 #plus-editor .btn-default {
-  color: var(--content-4) !important;
+  color: var(--content-2) !important;
   background-color: var(--background-1) !important;
   border-color: var(--background-1) !important;
 }
@@ -329,7 +331,7 @@ body {
 }
 
 #plus-editor .dropdown-menu > li > a {
-  color: var(--content-4);
+  color: var(--content-2);
 }
 
 .component-stack-border {
@@ -338,9 +340,9 @@ body {
 
 /*SN Components */
 :root {
-  --body-text-color: var(--content-4);
+  --body-text-color: var(--content-2);
   --body-background-color: var(--background-1);
-  --element-text-color: var(--content-4);
+  --element-text-color: var(--content-2);
   --element-background-color: var(--background-1);
   --tint-color: var(--highlight-color);
 }
