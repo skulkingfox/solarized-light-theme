@@ -1,6 +1,6 @@
 {
   "name": "sn-theme-solarized-light",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/dist.css",
   "sn": {
     "main": "dist/dist.css"
