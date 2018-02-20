@@ -7,11 +7,11 @@
     "navBarColor": "#eee8d5",
     "mainDimColor": "#eee8d5",
     "navBarTextColor": "#586e75",
-    "plainCellBorderColor": "eee8d5",
+    "plainCellBorderColor": "#eee8d5",
     "selectedBackgroundColor": "#eee8d5",
-    "composeBorderColor": "eee8d5"
+    "composeBorderColor": "#eee8d5"
   },
   "rules": {
   },
-  "statusBar": "light-content"
+  "statusBar": "dark-content"
 }
