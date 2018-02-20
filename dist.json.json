@@ -1,0 +1,17 @@
+{
+  "name": "Solarized Light",
+  "constants": {
+    "mainTintColor": "#268bd2",
+    "mainBackgroundColor": "#fdf6e3",
+    "mainTextColor": "#657b83",
+    "navBarColor": "#eee8d5",
+    "mainDimColor": "#eee8d5",
+    "navBarTextColor": "#586e75",
+    "plainCellBorderColor": "eee8d5",
+    "selectedBackgroundColor": "#eee8d5",
+    "composeBorderColor": "eee8d5"
+  },
+  "rules": {
+  },
+  "statusBar": "dark-content"
+}
